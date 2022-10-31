@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_enam">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:textSize="12dp"
+            android:text="Pasangan adalah bentuk khusus dari aksara jawa untuk mematikan atau menghilangkan vokal dari aksara sebelumnya. Aksara pasangan dipakai untuk menuliskan suku kata yang tidak terdapat vokal."/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="220dp"
+            android:src="@drawable/pasangan1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="220dp"
+            android:src="@drawable/pasangan2"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

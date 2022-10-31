@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Belajar Bahasa Jawa</string>
+    <string-array name="kata_ku">
+        <item>Indonesia</item>
+        <item>Malaysia</item>
+        <item>Singapura</item>
+        <item>Taiwan</item>
+        <item>Thailand</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

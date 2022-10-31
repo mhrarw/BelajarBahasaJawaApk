@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgr"
+    tools:context="com.example.mr13.belajarbahasajawa.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/menuSat2"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_columnWeight="2"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/bebaja" />
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+    <GridLayout
+        android:id="@+id/mainGrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+        android:rowCount="3">
+
+        <!--activity_satu-->
+        <!-- row 1 -->
+        <!-- column 1 -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/menuSatu"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:foreground="?@android:attr/selectableItemBackground"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="0dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/ob" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="KOSAKATA"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Bahasa jawa dan artinya "
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <!--activity_dua-->
+        <!-- column 2 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:foreground="?@android:attr/selectableItemBackground"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="0dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/pinguin" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="KEWAN"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Sebutan nama hewan dll"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!--activity_tiga-->
+        <!-- row 2 -->
+        <!-- column 1 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:foreground="?@android:attr/selectableItemBackground"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="0dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/ak" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="AKSARA"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Huruf Jawa "
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <!-- column 2 -->
+        <!--activity_empat-->
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:foreground="?@android:attr/selectableItemBackground"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="0dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/trunk" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TANDURAN"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Arane tanduran "
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--activity_lima-->
+        <!-- row 3 -->
+        <!-- column 1 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:foreground="?@android:attr/selectableItemBackground"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="0dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/bee" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="KOSOK BALEN"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Lawan kata "
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <!--activity_enam-->
+        <!-- column 2 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:foreground="?@android:attr/selectableItemBackground"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="0dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/fish" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="PARIBASAN"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Peribahasa jawa "
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--activity_tujuh-->
+        <!-- row 4 -->
+        <!-- column 1 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:foreground="?@android:attr/selectableItemBackground"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="0dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/deer" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="PARIKAN"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Pantun bahasa jawa "
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <!--activity_delapan-->
+        <!-- column 2 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:foreground="?@android:attr/selectableItemBackground"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="0dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/sun" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TENTANG"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Beri nilai aplikasi ini "
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </GridLayout>
+
+
+</LinearLayout>

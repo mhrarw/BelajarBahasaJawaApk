@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".asalusul">
+
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:columnCount="1"
+            android:padding="5dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/menuSat3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:onClick="carakan"
+                tools:ignore="OnClick"
+                android:foreground="?@android:attr/selectableItemBackground"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="50.5dp"
+                    app:srcCompat="@drawable/crknbtn" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:onClick="pasangan"
+                tools:ignore="OnClick"
+                android:foreground="?@android:attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="50.5dp"
+                    app:srcCompat="@drawable/pasanganbtn" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:onClick="sandangan"
+                tools:ignore="OnClick"
+                android:foreground="?@android:attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="50.5dp"
+                    app:srcCompat="@drawable/sandanganbtn" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:onClick="akswara"
+                tools:ignore="OnClick"
+                android:foreground="?@android:attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="50.5dp"
+                    app:srcCompat="@drawable/aksaraswarabtn" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:onClick="akrekan"
+                tools:ignore="OnClick"
+                android:foreground="?@android:attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="50.5dp"
+                    app:srcCompat="@drawable/aksararekanbtn" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:onClick="akmurda"
+                tools:ignore="OnClick"
+                android:foreground="?@android:attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="50.5dp"
+                    app:srcCompat="@drawable/aksaramurdabtn" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:onClick="akwilangan"
+                tools:ignore="OnClick"
+                android:foreground="?@android:attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="50.5dp"
+                    app:srcCompat="@drawable/aksarawilanganbtn" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:onClick="tandabc"
+                tools:ignore="OnClick"
+                android:foreground="?@android:attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="50.5dp"
+                    app:srcCompat="@drawable/tandabacabtn" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:onClick="contohpe"
+                tools:ignore="OnClick"
+                android:foreground="?@android:attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="50.5dp"
+                    app:srcCompat="@drawable/contohbtn" />
+
+            </android.support.v7.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

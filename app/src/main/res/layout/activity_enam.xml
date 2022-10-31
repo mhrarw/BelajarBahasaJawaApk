@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_enam">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="380dp"
+            android:src="@drawable/parib1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="380dp"
+            android:src="@drawable/parib2"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="380dp"
+            android:src="@drawable/parib3"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="380dp"
+            android:src="@drawable/parib4"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="380dp"
+            android:src="@drawable/parib5"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="380dp"
+            android:src="@drawable/parib6"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="380dp"
+            android:src="@drawable/parib7"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="380dp"
+            android:src="@drawable/parib8"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="380dp"
+            android:src="@drawable/parib9"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="380dp"
+            android:src="@drawable/parib10"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
